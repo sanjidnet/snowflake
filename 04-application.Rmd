@@ -1,7 +1,13 @@
-# Applications
+# Data Architecture
 
-Some _significant_ applications are demonstrated in this chapter.
+- Overall Data Flow
+- Reference Data Architecture
+- Handling Raw History
+- Integration with Data Lake
+- Create External Table
+- Query External Table
+- Partitioned External Tables
+- Snowpipe Streaming Overview
+- Change Data Capture, Creating and Managing Streams
+- Dynamic Tables
 
-## Example one
-
-## Example two

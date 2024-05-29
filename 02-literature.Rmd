@@ -1,3 +1,9 @@
-# Literature
+# Architecture Overview
 
-Here is a review of existing methods.
+- Workload Challenges
+- Database Options
+- Snowflake’s Layered Architecture
+- Scale Up for Large Workloads
+- Speed vs. Throughput
+- Scale Out for Multiple Concurrent Users
+

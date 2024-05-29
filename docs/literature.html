@@ -31,7 +31,7 @@
   
   
 <link rel="prev" href="intro.html"/>
-<link rel="next" href="methods.html"/>
+<link rel="next" href="architecture-overview.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -165,16 +165,28 @@ div.csl-indent {
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
 <li class="chapter" data-level="3" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>3</b> Literature</a></li>
-<li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a>
+<li class="chapter" data-level="4" data-path="architecture-overview.html"><a href="architecture-overview.html"><i class="fa fa-check"></i><b>4</b> Architecture Overview</a></li>
+<li class="chapter" data-level="5" data-path="deployment-considerations.html"><a href="deployment-considerations.html"><i class="fa fa-check"></i><b>5</b> Deployment Considerations</a></li>
+<li class="chapter" data-level="6" data-path="data-architecture.html"><a href="data-architecture.html"><i class="fa fa-check"></i><b>6</b> Data Architecture</a></li>
+<li class="chapter" data-level="7" data-path="sharing-architecture.html"><a href="sharing-architecture.html"><i class="fa fa-check"></i><b>7</b> Sharing Architecture</a></li>
+<li class="chapter" data-level="8" data-path="data-security-framework.html"><a href="data-security-framework.html"><i class="fa fa-check"></i><b>8</b> Data Security Framework</a></li>
+<li class="chapter" data-level="9" data-path="role-based-access-control-rbac.html"><a href="role-based-access-control-rbac.html"><i class="fa fa-check"></i><b>9</b> Role-Based Access Control (RBAC)</a></li>
+<li class="chapter" data-level="10" data-path="data-governance-features.html"><a href="data-governance-features.html"><i class="fa fa-check"></i><b>10</b> Data Governance Features</a></li>
+<li class="chapter" data-level="11" data-path="snowflake-data-storage.html"><a href="snowflake-data-storage.html"><i class="fa fa-check"></i><b>11</b> Snowflake Data Storage</a></li>
+<li class="chapter" data-level="12" data-path="table-clustering.html"><a href="table-clustering.html"><i class="fa fa-check"></i><b>12</b> Table Clustering</a></li>
+<li class="chapter" data-level="13" data-path="virtual-warehouse-deployment-strategy.html"><a href="virtual-warehouse-deployment-strategy.html"><i class="fa fa-check"></i><b>13</b> Virtual Warehouse Deployment Strategy</a></li>
+<li class="chapter" data-level="14" data-path="performance-optimization.html"><a href="performance-optimization.html"><i class="fa fa-check"></i><b>14</b> Performance Optimization</a></li>
+<li class="chapter" data-level="15" data-path="management-and-observability.html"><a href="management-and-observability.html"><i class="fa fa-check"></i><b>15</b> Management and Observability</a></li>
+<li class="chapter" data-level="16" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>16</b> Methods</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="methods.html"><a href="methods.html#math-example"><i class="fa fa-check"></i><b>4.1</b> math example</a></li>
+<li class="chapter" data-level="16.1" data-path="methods.html"><a href="methods.html#math-example"><i class="fa fa-check"></i><b>16.1</b> math example</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>5</b> Applications</a>
+<li class="chapter" data-level="17" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>17</b> Applications</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>5.1</b> Example one</a></li>
-<li class="chapter" data-level="5.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>5.2</b> Example two</a></li>
+<li class="chapter" data-level="17.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>17.1</b> Example one</a></li>
+<li class="chapter" data-level="17.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>17.2</b> Example two</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>6</b> Final Words</a></li>
+<li class="chapter" data-level="18" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>18</b> Final Words</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -199,7 +211,6 @@ div.csl-indent {
 <div id="literature" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">Chapter 3</span> Literature<a href="literature.html#literature" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Here is a review of existing methods.</p>
-
 </div>
             </section>
 
@@ -207,7 +218,7 @@ div.csl-indent {
         </div>
       </div>
 <a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="methods.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="architecture-overview.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

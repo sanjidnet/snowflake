@@ -1,3 +1,76 @@
-# Final Words
+# Sharing Architecture
 
-We have finished a nice book.
+- Data Mesh
+- Relevant Snowflake Capabilities for a Data Mesh
+- Data Mesh Architecture Options with Snowflake
+- Data Products in Snowflake
+- Auto-Fulfillment Overview and Example
+- How Auto-Fulfillment Works
+
+# Data Security Framework
+
+- Data Security Framework
+- Data Classification
+- Identify Data Sensitivity
+
+# Role-Based Access Control (RBAC)
+
+- Overview
+- RBAC Requirements
+- RBAC Hierarchy Design
+- RBAC Role Design
+- Naming Standard
+- RBAC Script Building
+- RBAC Snowflake Best Practices
+
+# Data Governance Features
+
+- Data Masking and Row Access Policies
+- Dynamic Data Masking
+- Row Access Policies
+
+# Snowflake Data Storage
+
+- Data Storage Methods
+- Snowflake Data Storage
+- Data Storage Implications
+- Time Travel
+- Key Point
+- Time Travel and Storage
+- Clones
+- Data Recovery
+- Agile Data Management
+- Development
+- System Testing
+- Deployment
+
+# Table Clustering
+
+- What Is Table Clustering?
+- Partition Pruning (Elimination)
+
+# Virtual Warehouse Deployment Strategy
+
+- Objectives
+- Key Concepts: Scaling Up
+- Key Concepts: Diminishing Elapsed Time Improvements
+- Right-Sizing Virtual Warehouses
+- Virtual Warehouse Deployment Approach
+- Measuring Workloads
+- Case Study
+
+# Performance Optimization
+
+- Search Optimization
+- How Does It Work?
+- Materialized Views
+- Materialized View Use Cases
+- Query Acceleration Service (QAS)
+
+# Management and Observability
+
+- Observability on Snowflake
+- Outbound Notifications
+- Snowflake Alerts
+- Observability Within Snowsight
+- Budget
